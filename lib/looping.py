@@ -14,10 +14,10 @@ def square_integers(int_list):
     
 
 def fizzbuzz():
-    counter = 100
-    while counter > 0:
+    counter = 0
+    while counter < 100:
        print (counter)
-    counter -= 1
+    counter += 1
 
 def fizzbuzz(num):
     if num % 3 == 0 and num % 5 == 0:
